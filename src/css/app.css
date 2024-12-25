@@ -1,0 +1,12 @@
+.container {
+    margin-top: 80px;
+}
+
+.showList {
+    margin-top: 20px
+}
+.list-group-item {display: flex;}
+
+.list-group-item-div1 { width: 75%}
+.list-group-item-div2 { width: 25%; text-align: right;}
+.accordion {margin-top: 20px;}
