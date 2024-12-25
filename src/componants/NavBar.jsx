@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function NavBar() {
   return (
@@ -12,7 +12,9 @@ export default function NavBar() {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <NavLink
-              className={({isActive})=>isActive? "nav-link active" : "nav-link" }
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
                 aria-current="page"
                 to="/addlist"
               >
@@ -20,9 +22,25 @@ export default function NavBar() {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className={({isActive})=>isActive? "nav-link active" : "nav-link" } to="/aboutus">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+                to="/aboutus"
+              >
                 About Us
               </NavLink>
+            </li>
+            <li className="nav-item dropdown">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+                to="/courses"             
+              >
+                Courses
+              </NavLink>
+            
             </li>
           </ul>
           <div className="form-check form-switch text-dark">
