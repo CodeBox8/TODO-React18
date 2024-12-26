@@ -64,6 +64,15 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "*",
+    element: (
+      <div>
+        <NavBar />
+        <AddList />
+      </div>
+    ),
+  },
 ]);
 
 function App() {
