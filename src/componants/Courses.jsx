@@ -4,7 +4,7 @@ import { NavLink, Outlet } from "react-router-dom";
 export default function Courses() {
   return (
     <>
-      <h1>** Courses **</h1>
+      <h1>*** Courses ***</h1>
       <p>
         ReactJS is a popular open-source JavaScript library used for building
         user interfaces, especially for single-page applications where data
@@ -16,17 +16,17 @@ export default function Courses() {
              
                 <li>
                   <NavLink className="dropdown-item" to="reactJs">
-                  ReactJS
+                  ReactJS***
                   </NavLink>
                 </li>
                 <li>
                 <NavLink className="dropdown-item" to="nodeJs">
-                    NodeJS
+                    NodeJS***
                   </NavLink>
                 </li>
                 <li>
                 <NavLink className="dropdown-item" to="vueJs">
-                    VueJS
+                    VueJS***
                   </NavLink>
                 </li>
               </ul>
