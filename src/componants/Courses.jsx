@@ -4,7 +4,7 @@ import { NavLink, Outlet } from "react-router-dom";
 export default function Courses() {
   return (
     <>
-      <h1>Courses</h1>
+      <h1>** Courses **</h1>
       <p>
         ReactJS is a popular open-source JavaScript library used for building
         user interfaces, especially for single-page applications where data
